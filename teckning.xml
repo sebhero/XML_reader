@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE teckning SYSTEM "teckning.dtd">
+
+<teckning>
+  <farg r="222" g="22" b="112"></farg>
+  <ritobjekt>
+    <punkt x="8" y="5">
+      <farg r="2" g="33" b="3"></farg>
+    </punkt>
+  </ritobjekt>
+  <ritobjekt>
+    <linje x="18" y="15" x2="67" y2="677">
+      <farg r="22" g="133" b="31"></farg>
+    </linje>
+  </ritobjekt>
+  <ritobjekt>
+    <rektangel x="80" y="55" bredd="56" hojd="65" fylld="ja">
+      <farg r="88" g="88" b="200"></farg>
+    </rektangel>
+  </ritobjekt>
+  <ritobjekt>
+    <oval x="100" y="100" bredd="123" hojd="123">
+    </oval>
+  </ritobjekt>
+  <ritobjekt>
+    <rektangel x="20" y="155" bredd="156" hojd="65" fylld="nej">
+      <farg r="10" g="100" b="0"></farg>
+    </rektangel>
+  </ritobjekt>
+  <ritobjekt>
+    <oval x="150" y="120" bredd="12" hojd="45" fylld="ja">
+    </oval>
+  </ritobjekt>
+</teckning>

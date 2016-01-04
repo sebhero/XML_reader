@@ -1,0 +1,39 @@
+<!-- rot-elementet teckning -->
+<!ELEMENT teckning (farg?, ritobjekt*)>
+
+<!-- elementet farg -->
+<!ELEMENT farg EMPTY>
+<!ATTLIST farg r CDATA #REQUIRED>
+<!ATTLIST farg g CDATA #REQUIRED>
+<!ATTLIST farg b CDATA #REQUIRED>
+
+<!-- elementet ritobjekt -->
+<!ELEMENT ritobjekt (punkt | linje | rektangel | oval)>
+
+<!-- elementet punkt -->
+<!ELEMENT punkt (farg?)>
+<!ATTLIST punkt x CDATA #REQUIRED>
+<!ATTLIST punkt y CDATA #REQUIRED>
+
+<!-- elementet linje -->
+<!ELEMENT linje (farg?)>
+<!ATTLIST linje x CDATA #REQUIRED>
+<!ATTLIST linje y CDATA #REQUIRED>
+<!ATTLIST linje x2 CDATA #REQUIRED>
+<!ATTLIST linje y2 CDATA #REQUIRED>
+
+<!-- elementet rektangel -->
+<!ELEMENT rektangel (farg?)>
+<!ATTLIST rektangel x CDATA #REQUIRED>
+<!ATTLIST rektangel y CDATA #REQUIRED>
+<!ATTLIST rektangel bredd CDATA #REQUIRED>
+<!ATTLIST rektangel hojd CDATA #REQUIRED>
+<!ATTLIST rektangel fylld (ja | nej) "nej">
+
+<!-- elementet oval -->
+<!ELEMENT oval (farg?)>
+<!ATTLIST oval x CDATA #REQUIRED>
+<!ATTLIST oval y CDATA #REQUIRED>
+<!ATTLIST oval bredd CDATA #REQUIRED>
+<!ATTLIST oval hojd CDATA #REQUIRED>
+<!ATTLIST oval fylld (ja | nej) "nej">
